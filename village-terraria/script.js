@@ -1,3 +1,3 @@
-import {NPCs as personagens} from 'db.js'
+const bancoDados = require('db.js');
 
-console.log(personagens)
+console.log(bancoDados)

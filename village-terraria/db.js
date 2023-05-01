@@ -301,4 +301,4 @@ const Biomes = [
   "Hallow",
 ]
 
-export default {NPCs, Biomes}
+export {NPCs, Biomes}
