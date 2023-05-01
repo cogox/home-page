@@ -1,4 +1,4 @@
-const NPCs = [
+export const NPCs = [
   {
     "NPC":"Guide",
     Biome: {
@@ -290,7 +290,7 @@ const NPCs = [
     }
   }
 ]
-const Biomes = [
+export const Biomes = [
   "Forest",
   "Caverns",
   "Snow",
@@ -300,5 +300,3 @@ const Biomes = [
   "Mushroom",
   "Hallow",
 ]
-
-export {NPCs, Biomes}

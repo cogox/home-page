@@ -1,3 +1,2 @@
-const bancoDados = require('db.js');
-
-console.log(bancoDados)
+import { Biomes } from "./db.js"
+console.log(Biomes)
