@@ -1,0 +1,79 @@
+NPC,Biome preference[1],Relationships[1]
+Internal,External
+Likes,Dislikes,Likes / Loves,Dislikes / Hates,Is Liked / Loved By,Is Disliked / Hated By
+Guide,Forest,Ocean,Clothier,Painter,Truffle,Pirate
+Zoologist,Steampunker,Witch Doctor,Tavernkeep
+Merchant,Forest,Desert,Golfer,Angler,Tax Collector,Golfer
+Nurse,Tax Collector,Wizard,Party Girl
+Zoologist,Forest,Desert,Witch Doctor,Arms Dealer,Party Girl,Nurse
+Golfer,Angler,Guide,Cyborg
+Golfer
+Golfer,Forest,"Underground
+Cavern
+The Underworld",Angler,Merchant,Wizard,Dryad
+Painter,Pirate,Merchant,Arms Dealer
+Zoologist,Zoologist
+Nurse,The Hallow,Snow biome,Arms Dealer,Zoologist,Arms Dealer,Clothier
+Wizard,Dryad,Merchant,Witch Doctor
+Party Girl
+Tavernkeep,The Hallow,Snow biome,Demolitionist,Dye Trader,Demolitionist,Angler
+Goblin Tinkerer,Guide,Pirate,Stylist
+Party Girl,The Hallow,"Underground
+Cavern
+The Underworld",Wizard,Tax Collector,Painter,Nurse
+Zoologist,Merchant,Angler,Steampunker
+Stylist,Tax Collector
+Wizard,The Hallow,Ocean,Golfer,Cyborg,Party Girl,Cyborg
+Merchant,Witch Doctor,Nurse,Steampunker
+Demolitionist,"Underground
+Cavern
+The Underworld",Ocean,Tavernkeep,Arms Dealer,Tavernkeep,Arms Dealer
+Mechanic,Goblin Tinkerer,Angler,Tax Collector
+Goblin Tinkerer,"Underground
+Cavern
+The Underworld",Jungle,Mechanic,Stylist,Mechanic,Stylist
+Dye Trader,Clothier,Tavernkeep,Demolitionist
+Clothier,"Underground
+Cavern
+The Underworld",The Hallow,Truffle,Mechanic,Guide,Mechanic
+Tax Collector,Nurse,Goblin Tinkerer
+Truffle
+Dye Trader,Desert,Forest,Arms Dealer,Pirate,Stylist,Tavernkeep
+Painter,Steampunker,Goblin Tinkerer
+Arms Dealer,Desert,Snow biome,Nurse,Demolitionist,Nurse,Zoologist
+Steampunker,Golfer,Dye Trader,Demolitionist
+Mechanic
+Steampunker,Desert,Jungle,Cyborg,Dryad,Arms Dealer,Guide
+Painter,Wizard,Cyborg,Dye Trader
+Party Girl
+Dryad,Jungle,Desert,Witch Doctor,Golfer,Painter,Nurse
+Truffle,Angler,Witch Doctor,Steampunker
+Truffle
+Painter,Jungle,Forest,Dryad,Truffle,Golfer,Guide
+Party Girl,Cyborg,Dye Trader
+Steampunker
+Witch Doctor,Jungle,The Hallow,Dryad,Truffle,Zoologist,Truffle
+Guide,Nurse,Dryad,Wizard
+Stylist,Ocean,Snow biome,Dye Trader,Goblin Tinkerer,Party Girl,Goblin Tinkerer
+Pirate,Tavernkeep,Cyborg,Pirate
+Angler,Ocean,Desert,Demolitionist,Tavernkeep,Golfer,Merchant
+Party Girl,Pirate,Zoologist
+Tax Collector,Dryad
+Pirate,Ocean,"Underground
+Cavern
+The Underworld",Angler,Guide,Stylist,Dye Trader
+Tavernkeep,Stylist,Cyborg,Golfer
+Mechanic,Snow biome,"Underground
+Cavern
+The Underworld",Goblin Tinkerer,Clothier,Goblin Tinkerer,Clothier
+Cyborg,Arms Dealer,Demolitionist,Tax Collector
+Tax Collector,Snow biome,The Hallow,Merchant,Santa Claus,Clothier,Party Girl
+Party Girl,Demolitionist,Angler,Santa Claus
+Mechanic,Merchant
+Cyborg,Snow biome,Jungle,Steampunker,Wizard,Steampunker,Wizard
+Pirate,Zoologist,Mechanic,Painter
+Stylist
+Santa Claus,Snow biome (loves),Desert (hates),None,Tax Collector,None,Tax Collector
+Truffle,Glowing Mushroom biome,None,Guide,Witch Doctor,Clothier,Witch Doctor
+Dryad,Clothier,Dryad,Painter
+Princess,None,None,Likes All,None,Is Liked By All,None
