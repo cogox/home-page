@@ -3,7 +3,7 @@ export const NPCs = [
     "NPC":"Guide",
     Biome: {
       "Likes":"Forest",
-      "Deslikes":"Ocean"
+      "Dislikes":"Ocean"
     },
     Neighbor: {
       "Likes":["Clothier", "Zoologist"],
@@ -14,7 +14,7 @@ export const NPCs = [
     "NPC":"Merchant",
     Biome: {
       "Likes":"Forest",
-      "Deslikes":"Desert"
+      "Dislikes":"Desert"
     },
     Neighbor: {
       "Likes":["Golfer","Nurse"],
@@ -25,7 +25,7 @@ export const NPCs = [
     "NPC":"Golfer",
     Biome:{
       "Likes":"Forest",
-      "Deslikes":"Caverns"
+      "Dislikes":"Caverns"
     },
     Neighbor: {
       "Loves":["Angler"],
@@ -37,7 +37,7 @@ export const NPCs = [
     "NPC":"Zoologist",
     Biome:{
       "Likes":"Forest",
-      "Deslikes":"Desert",
+      "Dislikes":"Desert",
     },
     Neighbor: {
       "Loves":["Witch Doctor"],
@@ -49,7 +49,7 @@ export const NPCs = [
     "NPC":"Tax Collector",
     Biome:{
       "Likes":"Snow",
-      "Deslikes":"Hallow"
+      "Dislikes":"Hallow"
     },
     Neighbor: {
       "Loves":["Merchant"],
@@ -61,7 +61,7 @@ export const NPCs = [
     "NPC":"Mechanic",
     Biome:{
       "Likes":"Snow",
-      "Deslikes":"Caverns"
+      "Dislikes":"Caverns"
     },
     Neighbor: {
       "Loves":["Goblin Tinkerer"],
@@ -73,7 +73,7 @@ export const NPCs = [
     "NPC":"Cyborg",
     Biome:{
       "Likes":"Snow",
-      "Deslikes":"Jungle"
+      "Dislikes":"Jungle"
     },
     Neighbor: {
       "Likes":["Stylist","Pirate","Steampunker"],
@@ -91,7 +91,7 @@ export const NPCs = [
     "NPC":"Dye Trader",
     Biome:{
       "Likes":"Desert",
-      "Deslikes":"Forest"
+      "Dislikes":"Forest"
     },
     Neighbor: {
       "Likes":["Arms Dealer","Painter"],
@@ -102,7 +102,7 @@ export const NPCs = [
     "NPC":"Arms Dealer",
     Biome:{
       "Likes":"Desert",
-      "Deslikes":"Snow"
+      "Dislikes":"Snow"
     },
     Neighbor: {
       "Loves":["Nurse"],
@@ -114,7 +114,7 @@ export const NPCs = [
     "NPC":"Steampunker",
     Biome:{
       "Likes":"Desert",
-      "Deslikes":"Jungle"
+      "Dislikes":"Jungle"
     },
     Neighbor: {
       "Loves":["Cyborg"],
@@ -125,7 +125,7 @@ export const NPCs = [
     "NPC":"Dryad",
     Biome:{
       "Likes":"Jungle",
-      "Deslikes":"Desert"
+      "Dislikes":"Desert"
     },
     Neighbor: {
       "Likes":["Witch Doctor","Truffle"],
@@ -136,7 +136,7 @@ export const NPCs = [
     "NPC":"Witch Doctor",
     Biome:{
       "Likes":"Jungle",
-      "Deslikes":"Hallow"
+      "Dislikes":"Hallow"
     },
     Neighbor: {
       "Likes":["Dryad","Guide"],
@@ -147,7 +147,7 @@ export const NPCs = [
     "NPC":"Painter",
     Biome:{
       "Likes":"Jungle",
-      "Deslikes":"Forest"
+      "Dislikes":"Forest"
     },
     Neighbor: {
       "Loves":["Dryad"],
@@ -158,7 +158,7 @@ export const NPCs = [
     "NPC":"Angler",
     Biome:{
       "Likes":"Ocean",
-      "Deslikes":"Desert"
+      "Dislikes":"Desert"
     },
     Neighbor: {
       "Likes":["Party Girl","Demolitionist","Tax Collector"],
@@ -168,7 +168,7 @@ export const NPCs = [
     "NPC":"Pirate",
     Biome:{
       "Likes":"Ocean",
-      "Deslikes":"Caverns"
+      "Dislikes":"Caverns"
     },
     Neighbor: {
       "Loves":["Angler"],
@@ -180,7 +180,7 @@ export const NPCs = [
     "NPC":"Stylist",
     Biome:{
       "Likes":"Ocean",
-      "Deslikes":"Snow"
+      "Dislikes":"Snow"
     },
     Neighbor: {
       "Loves":["Dye Trader"],
@@ -192,7 +192,7 @@ export const NPCs = [
     "NPC":"Demolitionist",
     Biome:{
       "Likes":"Caverns",
-      "Deslikes":"Ocean",
+      "Dislikes":"Ocean",
     },
     Neighbor: {
       "Loves":["Tavernkeep"],
@@ -203,7 +203,7 @@ export const NPCs = [
     "NPC":"Goblin Tinkerer",
     Biome:{
       "Likes":"Caverns",
-      "Deslikes":"Jungle",
+      "Dislikes":"Jungle",
     },
     Neighbor: {
       "Loves":["Mechanic"],
@@ -215,7 +215,7 @@ export const NPCs = [
     "NPC":"Clothier",
     Biome:{
       "Likes":"Caverns",
-      "Deslikes":"Hallow",
+      "Dislikes":"Hallow",
     },
     Neighbor: {
       "Loves":["Truffle"],
@@ -227,7 +227,7 @@ export const NPCs = [
     "NPC":"Wizard",
     Biome:{
       "Likes":"Hallow",
-      "Deslikes":"Ocean"
+      "Dislikes":"Ocean"
     },
     Neighbor: {
       "Loves":["Golfer"],
@@ -239,7 +239,7 @@ export const NPCs = [
     "NPC":"Nurse",
     Biome:{
       "Likes":"Hallow",
-      "Deslikes":"Snow"
+      "Dislikes":"Snow"
     },
     Neighbor: {
       "Loves":["Arms Dealer"],
@@ -251,7 +251,7 @@ export const NPCs = [
     "NPC":"Party Girl",
     Biome:{
       "Likes":"Hallow",
-      "Deslikes":"Caverns"
+      "Dislikes":"Caverns"
     },
     Neighbor: {
       "Loves":["Wizard","Zoologist"],
@@ -263,7 +263,7 @@ export const NPCs = [
     "NPC":"Tavernkeep",
     Biome:{
       "Likes":"Hallow",
-      "Deslikes":"Snow"
+      "Dislikes":"Snow"
     },
     Neighbor: {
       "Loves":["Demolitionist"],
