@@ -41,10 +41,13 @@ $(document).ready(function() {
       if (NPCPreferences.Biome.Likes === bioma) NPCHappiness = NPCHappiness + 6
       if (NPCPreferences.Biome.Loves === bioma) NPCHappiness = NPCHappiness + 12
       for (let num = 1; num <= 5; num++) {
-        NPCPreferences.Neighbor.Loves?.forEach(Loved => {if(Loved === vila.find(`#morador${num}`).val()) NPCHappiness = NPCHappiness + 12 })
-        NPCPreferences.Neighbor.Likes?.forEach(Liked => {if(Liked === vila.find(`#morador${num}`).val()) NPCHappiness = NPCHappiness + 6 })
-        NPCPreferences.Neighbor.Dislikes?.forEach(Disliked => {if(Disliked === vila.find(`#morador${num}`).val()) NPCHappiness = NPCHappiness - 6 })
-        NPCPreferences.Neighbor.Hates?.forEach(Hated => {if(Hated === vila.find(`#morador${num}`).val()) NPCHappiness = NPCHappiness - 12 })
+        let morador = vila.find(`#morador${num}`).val()
+        if (morador === "Princess" && NPCPreferences.NPC !== "Princess") NPCHappiness = NPCHappiness + 12
+        if (NPCPreferences.NPC === "Princess" && morador !== "Princess") NPCHappiness = NPCHappiness + 12
+        NPCPreferences.Neighbor.Loves?.forEach(Loved => {if(Loved === morador) NPCHappiness = NPCHappiness + 12 })
+        NPCPreferences.Neighbor.Likes?.forEach(Liked => {if(Liked === morador) NPCHappiness = NPCHappiness + 6 })
+        NPCPreferences.Neighbor.Dislikes?.forEach(Disliked => {if(Disliked === morador) NPCHappiness = NPCHappiness - 6 })
+        NPCPreferences.Neighbor.Hates?.forEach(Hated => {if(Hated === morador) NPCHappiness = NPCHappiness - 12 })
       }
       vila.find(`#felicidade${num}`).text(100 + NPCHappiness)
     }
