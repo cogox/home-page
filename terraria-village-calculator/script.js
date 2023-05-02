@@ -43,7 +43,7 @@ $(document).ready(function() {
       for (let num = 1; num <= 5; num++) {
         let morador = vila.find(`#morador${num}`).val()
         if (morador === "Princess" && NPCPreferences.NPC !== "Princess") NPCHappiness = NPCHappiness + 12
-        if (NPCPreferences.NPC === "Princess" && morador !== "Princess") NPCHappiness = NPCHappiness + 12
+        if (NPCPreferences.NPC === "Princess" && morador && morador !== "Princess") NPCHappiness = NPCHappiness + 12
         NPCPreferences.Neighbor.Loves?.forEach(Loved => {if(Loved === morador) NPCHappiness = NPCHappiness + 12 })
         NPCPreferences.Neighbor.Likes?.forEach(Liked => {if(Liked === morador) NPCHappiness = NPCHappiness + 6 })
         NPCPreferences.Neighbor.Dislikes?.forEach(Disliked => {if(Disliked === morador) NPCHappiness = NPCHappiness - 6 })
