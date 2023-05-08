@@ -31,6 +31,7 @@ $(document).ready(function() {
   $('.bioma-select').change(function() {
     let moradorSelecionado = $(this).attr('id').split("-")[1]; // Obtém o valor selecionado no select
     let vila = $(this).closest('.form-group')
+<<<<<<< HEAD:village-terraria/script.js
     let biome = vila.attr('id').split("-")[1]
     // console.log(moradorSelecionado, biome)
     for (let numHouse = 1; numHouse <= 5; numHouse++) {
@@ -64,9 +65,29 @@ $(document).ready(function() {
         vila.find(`#felicidade-${numHouse}`).removeClass("text-success text-danger").addClass("text-warning");
       } else {
         vila.find(`#felicidade-${numHouse}`).removeClass("text-success text-warning").addClass("text-danger");
+=======
+    let bioma = vila.attr('id').split("-")[1]
+    for (let num = 1; num <= 5; num++) {
+      const NPCPreferences = NPCs.find(npc => npc.NPC === vila.find(`#morador${num}`).val())
+      if (!NPCPreferences) return vila.find(`#felicidade${num}`).text(0)
+      let NPCHappiness = 0
+      if (NPCPreferences.Biome.Hates === bioma) NPCHappiness = NPCHappiness -12
+      if (NPCPreferences.Biome.Dislikes === bioma) NPCHappiness = NPCHappiness - 6
+      if (NPCPreferences.Biome.Likes === bioma) NPCHappiness = NPCHappiness + 6
+      if (NPCPreferences.Biome.Loves === bioma) NPCHappiness = NPCHappiness + 12
+      for (let num = 1; num <= 5; num++) {
+        let morador = vila.find(`#morador${num}`).val()
+        if (morador === "Princess" && NPCPreferences.NPC !== "Princess") NPCHappiness = NPCHappiness + 12
+        if (NPCPreferences.NPC === "Princess" && morador && morador !== "Princess") NPCHappiness = NPCHappiness + 12
+        NPCPreferences.Neighbor.Loves?.forEach(Loved => {if(Loved === morador) NPCHappiness = NPCHappiness + 12 })
+        NPCPreferences.Neighbor.Likes?.forEach(Liked => {if(Liked === morador) NPCHappiness = NPCHappiness + 6 })
+        NPCPreferences.Neighbor.Dislikes?.forEach(Disliked => {if(Disliked === morador) NPCHappiness = NPCHappiness - 6 })
+        NPCPreferences.Neighbor.Hates?.forEach(Hated => {if(Hated === morador) NPCHappiness = NPCHappiness - 12 })
+>>>>>>> 8a724663a411c8397e81d6dff2b2b812ce45ed40:terraria-village-calculator/script.js
       }
     }
   });
+<<<<<<< HEAD:village-terraria/script.js
   NPCs.forEach(NPC => {
     let tableData = `
       <tr><td>${NPC.NPC}</td>
@@ -83,3 +104,7 @@ $(document).ready(function() {
     $("#living-preferences").append(tableData)
   })
 });
+=======
+
+});
+>>>>>>> 8a724663a411c8397e81d6dff2b2b812ce45ed40:terraria-village-calculator/script.js

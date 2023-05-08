@@ -1,0 +1,27 @@
+﻿NPC,Loves,Likes,Dislikes,Hates,Loves,Loves,Likes,Likes,Likes,Dislikes,Dislikes,Dislikes,Hates
+Guide,,Forest,Ocean,,None,,Clothier,Zoologist,,Steampunker,,,Painter
+Merchant,,Forest,Desert,,None,,Golfer,Nurse,,Tax Collector,,,Angler
+Golfer,,Forest,Caverns,,Angler,,Painter,Zoologist,,Pirate,,,Merchant
+Zoologist,,Forest,Desert,,Witch Doctor,,Golfer,,,Angler,,,Arms Dealer
+Tax Collector,,Snow,Hallow,,Merchant,,Party Girl,,,Demolitionist,Mechanic,,Santa Claus
+Mechanic,,Snow,Caverns,,Goblin Tinkerer,,Cyborg,,,Arms Dealer,,,Clothier
+Cyborg,,Snow,Jungle,,None,,Stylist,Pirate,Steampunker,Zoologist,,,Wizard
+Santa Claus,Snow,,,Desert,None,,None,,,None,,,Tax Collector
+Dye Trader,,Desert,Forest,,None,,Arms Dealer,Painter,,Steampunker,,,Pirate
+Arms Dealer,,Desert,Snow,,Nurse,,Steampunker,,,Golfer,,,Demolitionist
+Steampunker,,Desert,Jungle,,Cyborg,,Painter,,,Party Girl,Wizard,Dryad,None
+Dryad,,Jungle,Desert,,None,,Witch Doctor,Truffle,,Angler,,,Golfer
+Witch Doctor,,Jungle,Hallow,,None,,Dryad,Guide,,Nurse,,,Truffle
+Painter,,Jungle,Forest,,Dryad,,Party Girl,,,Cyborg,Truffle,,None
+Angler,,Ocean,Desert,,None,,Party Girl,Demolitionist,Tax Collector,None,,,Tavernkeep
+Pirate,,Ocean,Caverns,,Angler,,Tavernkeep,,,Stylist,,,Guide
+Stylist,,Ocean,Snow,,Dye Trader,,Pirate,,,Tavernkeep,,,Goblin Tinkerer
+Demolitionist,,Caverns,Ocean,,Tavernkeep,,Mechanic,,,Goblin Tinkerer,Arms Dealer,,None
+Goblin Tinkerer,,Caverns,Jungle,,Mechanic,,Dye Trader,,,Clothier,,,Stylist
+Clothier,,Caverns,Hallow,,Truffle,,Tax Collector,,,Nurse,,,Mechanic
+Wizard,,Hallow,Ocean,,Golfer,,Merchant,,,Witch Doctor,,,Cyborg
+Nurse,,Hallow,Snow,,Arms Dealer,,Wizard,,,Party Girl,Dryad,,Zoologist
+Party Girl,,Hallow,Caverns,,Wizard,Zoologist,Stylist,,,Merchant,,,Tax Collector
+Tavernkeep,,Hallow,Snow,,Demolitionist,,Goblin Tinkerer,,,Guide,,,Dye Trader
+Truffle,,Mushroom,None,,Guide,,Dryad,,,Clothier,,,Witch Doctor
+Princess,,None,None,,All,,None,,,None,,,None
