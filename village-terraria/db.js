@@ -285,8 +285,10 @@ export const NPCs = [
   },{
     "NPC":"Princess",
     Biome:{
+      "Loves": ["All"]
     },
     Neighbor: {
+      "Loves": ["All"]
     }
   }
 ]
